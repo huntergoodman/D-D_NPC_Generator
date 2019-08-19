@@ -1,0 +1,263 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="file:///home/chronos/u-7bd9acf60573c8c3097a7ccd3eb7ddb47f346a65/MyFiles/Downloads/Code/NPC%20Character%20Gen/NPC_Gen.js">
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Eagle+Lake');
+        .reloadButton {
+            font-family: 'Eagle Lake', cursive;
+            background-color: #f8f5de;
+            background-image: linear-gradient(to right, rgba(255, 210, 0, 0.4), rgba(200, 160, 0, 0.1) 11%, rgba(0, 0, 0, 0) 35%, rgba(200, 160, 0, 0.1) 65%);
+            box-shadow: inset 0 0 75px rgba(255, 210, 0, 0.3), inset 0 0 20px rgba(255, 210, 0, 0.4), inset 0 0 30px rgba(220, 120, 0, 0.8);
+            color: rgba(0, 0, 0, 0.5);
+            font-family: 'Eagle Lake', cursive;
+            width: calc(300px);
+            height: calc(50px);
+            letter-spacing: 0.05px;
+            line-height: 1.8;
+            padding: 5px 10px 15px 5px;
+        }
+        
+        .reloadButton button:hover {
+            border: none;
+            outline: none;
+            padding: 5px;
+        }
+        
+        .reloadButton button:focus {
+            border: none;
+            outline: none;
+            padding: none;
+        }
+        
+        .button {
+            text-align: center;
+        }
+        
+        .stats {
+            font-size: 40px;
+            font-family: 'Eagle Lake', cursive;
+            text-align: center;
+        }
+        
+        .page {
+            background-color: #f8f5de;
+            background-image: linear-gradient(to right, rgba(255, 210, 0, 0.4), rgba(200, 160, 0, 0.1) 11%, rgba(0, 0, 0, 0) 35%, rgba(200, 160, 0, 0.1) 65%);
+            box-shadow: inset 0 0 75px rgba(255, 210, 0, 0.3), inset 0 0 20px rgba(255, 210, 0, 0.4), inset 0 0 30px rgba(220, 120, 0, 0.8);
+            color: rgba(0, 0, 0, 0.5);
+            width: calc(8.5in + 5.4in);
+            height: calc(8.5in + 17.5in);
+            letter-spacing: 0.05px;
+            line-height: 1.8;
+            padding: 5px 10px 15px 5px;
+        }
+        
+        .statsHeader {
+            text-align: center;
+            font-size: 26px;
+            font-family: 'Eagle Lake', cursive;
+        }
+        
+        .name {
+            font-family: 'Eagle Lake', cursive;
+        }
+        
+        .nameTxt {
+            font-family: 'Eagle Lake', cursive;
+        }
+        
+        .dwarfTraitsHeader {
+            font-family: 'Eagle Lake', cursive;
+        }
+        
+        .dwarfTraitsP {
+            font-family: 'Eagle Lake', cursive;
+            font-size: 16.9px;
+        }
+        
+        .subrace {
+            font-family: 'Eagle Lake', cursive;
+        }
+        
+        .hillDwarf {
+            font-family: 'Eagle Lake', cursive;
+        }
+        
+        .hillDwarfP {
+            font-family: 'Eagle Lake', cursive;
+        }
+        
+        .mountainDwarf {
+            font-family: 'Eagle Lake', cursive;
+        }
+        
+        .mountainDwarfP {
+            font-family: 'Eagle Lake', cursive;
+        }
+        
+        .npcAppearance {
+            font-family: 'Eagle Lake', cursive;
+        }
+        
+        .npcAppearanceHeader {
+            font-family: 'Eagle Lake', cursive;
+        }
+        
+        .npcStrongAbilities {
+            font-family: 'Eagle Lake', cursive;
+        }
+        
+        .npcAbilities {
+            font-family: 'Eagle Lake', cursive;
+        }
+        
+        .npcWeakAbilities {
+            font-family: 'Eagle Lake', cursive;
+        }
+        
+        .npcPersonality {
+            font-family: 'Eagle Lake', cursive;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <div class="button">
+            <button class="reloadButton" onclick="document.location.reload()">Generate New NPC</button>
+        </div>
+        <div class="statsHeader">
+            <h1>Stats:</h1>
+        </div>
+        <div class="stats">
+            <script>
+                document.write(myNum1);
+            </script>
+            <script>
+                document.write(myNum2);
+            </script>
+
+            <script>
+                document.write(myNum3);
+            </script>
+            <script>
+                document.write(myNum4);
+            </script>
+            <script>
+                document.write(myNum5);
+            </script>
+            <script>
+                document.write(myNum6);
+            </script>
+        </div>
+        <div class="name">
+            <h1>Name:</h1>
+            <div class="nameTxt">
+                <script>
+                    document.write(myMDName)
+                </script>
+                <script>
+                    document.write(myDClanName);
+                </script>
+            </div>
+        </div>
+
+        <div class="npcAppearanceHeader">
+            <h1>Npc Appearance:</h1>
+        </div>
+        <div class="npcAppearance">
+            <script>
+                document.write(myNpcAppearance);
+            </script>
+        </div>
+        <div class="npcAbilities">
+            <h1>Strong Abilities:</h1>
+            <div class="npcStrongAbilities">
+                <script>
+                    document.write(myNpcSA);
+                </script>
+            </div>
+            <h1>Weak Abilities:</h1>
+            <div class="npcWeakAbilities">
+                <script>
+                    document.write(myNpcWA);
+                </script>
+            </div>
+
+            <div class="npcPersonality">
+                <div>
+                    <h1>Personality:</h1>
+                    <h2>Talents:</h2>
+                    <script>
+                        document.write(myNpcT);
+                    </script>
+                    <h2>Mannerisms:</h2>
+                    <script>
+                        document.write(myNpcM);
+                    </script>
+                    <h2>Interaction Traits:</h2>
+                    <script>
+                        document.write(myNpcIT);
+                    </script>
+                    <h2>Ideals:</h2>
+                    <script>
+                        document.write(myNpcI);
+                    </script>
+                    <h2>Bonds:</h2>
+                    <script>
+                        document.write(myNpcB);
+                    </script>
+                    <h2>Flaws and Secrets:</h2>
+                    <script>
+                        document.write(myNpcFS);
+                    </script>
+                </div>
+            </div>
+
+        </div>
+        <h1 class="dwarfTraitsHeader">Dwarf Traits</h1>
+        <p class=dwarfTraitsP>
+            <b>Ability Score Increase:</b> Your constitution score increases by 2
+            <br>
+            <b>Age:</b> Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years.
+            <br>
+            <b>Alignment:</b> Most dwarves are lawful, believing firmly in the benenfits of a well-ordered society. They tend towards good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order.
+            <br>
+            <b>Size:</b> Dwarves stand between 4 and 5 feet tall and average about 150 pounds. your size is Medium.
+            <br>
+            <b>Speed:</b> Your base walking speed is 25 feet. Your speed is not reduced by wearing heavy armor.
+            <br>
+            <b>Darkvision:</b> Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. you can dicern color in darkness, only shades of gray.
+            <br>
+            <b>Dwarven Resilience:</b> You have advantage on saving throws against poison, and you have resistance against poison damage.
+            <br>
+            <b>Dwarven Combat Training:</b> You have proficiency with the battleaxe, handaxe, light hammer, and warhammer.
+            <br>
+            <b>Tool Proficiency:</b> You gain proficiency with the artisan's tools of your choice: smith's tools, brewer's supplies, or mason's tools.
+            <br>
+            <b>Stonecunning:</b> Whenever you make an Intelligence(History) check related to the orgin of stonework you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of you normal proficiency bonus.
+            <br>
+            <b>Languages:</b> You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.
+        </p>
+
+        <h1 class="subrace">Subraces:</h1>
+        <h2 class="hillDwarf">Hill Dwarf:</h2>
+        <p class="hillDwarfP">
+            <b>Ability Score Increase:</b> Your Wisdom score increases by 1
+            <br>
+            <b>Dwarven Toughness:</b> Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.
+        </p>
+
+        <h2 class="mountainDwarf">Mountain Dwarf</h2>
+        <p class="mountainDwarfP">
+            <b>Ability Score Increase:</b> You Strength score increases by 2.
+            <br>
+            <b>Dwarven Armor Training:</b> You have proficiency with light and medium armor.
+        </p>
+    </div>
+</body>
+
+</html>
