@@ -1,0 +1,270 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="file:///home/chronos/u-7bd9acf60573c8c3097a7ccd3eb7ddb47f346a65/MyFiles/Downloads/Code/NPC%20Character%20Gen/NPC_Gen.js">
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Eagle+Lake');
+        .reloadButton {
+            font-family: 'Eagle Lake', cursive;
+            background-color: #f8f5de;
+            background-image: linear-gradient(to right, rgba(255, 210, 0, 0.4), rgba(200, 160, 0, 0.1) 11%, rgba(0, 0, 0, 0) 35%, rgba(200, 160, 0, 0.1) 65%);
+            box-shadow: inset 0 0 75px rgba(255, 210, 0, 0.3), inset 0 0 20px rgba(255, 210, 0, 0.4), inset 0 0 30px rgba(220, 120, 0, 0.8);
+            color: rgba(0, 0, 0, 0.5);
+            font-family: 'Eagle Lake', cursive;
+            width: calc(300px);
+            height: calc(50px);
+            letter-spacing: 0.05px;
+            line-height: 1.8;
+            padding: 5px 10px 15px 5px;
+        }
+        
+        .reloadButton button:hover {
+            border: none;
+            outline: none;
+            padding: 5px;
+        }
+        
+        .reloadButton button:focus {
+            border: none;
+            outline: none;
+            padding: none;
+        }
+        
+        .button {
+            text-align: center;
+        }
+        
+        .stats {
+            font-size: 40px;
+            font-family: 'Eagle Lake', cursive;
+            text-align: center;
+        }
+        
+        .page {
+            background-color: #f8f5de;
+            background-image: linear-gradient(to right, rgba(255, 210, 0, 0.4), rgba(200, 160, 0, 0.1) 11%, rgba(0, 0, 0, 0) 35%, rgba(200, 160, 0, 0.1) 65%);
+            box-shadow: inset 0 0 75px rgba(255, 210, 0, 0.3), inset 0 0 20px rgba(255, 210, 0, 0.4), inset 0 0 30px rgba(220, 120, 0, 0.8);
+            color: rgba(0, 0, 0, 0.5);
+            width: calc(8.5in + 5.4in);
+            height: calc(8.5in + 22.4in);
+            letter-spacing: 0.05px;
+            line-height: 1.8;
+            padding: 5px 10px 15px 5px;
+        }
+        
+        .statsHeader {
+            text-align: center;
+            font-size: 26px;
+            font-family: 'Eagle Lake', cursive;
+        }
+        
+        .name {
+            font-family: 'Eagle Lake', cursive;
+        }
+        
+        .nameTxt {
+            font-family: 'Eagle Lake', cursive;
+        }
+        
+        .personailty {
+            font-family: 'Eagle Lake', cursive;
+        }
+        
+        .elfTraitsHeader {
+            font-family: 'Eagle Lake', cursive;
+        }
+        
+        .elfTraitsP {
+            font-family: 'Eagle Lake', cursive;
+        }
+        
+        .subrace {
+            font-family: 'Eagle Lake', cursive;
+        }
+        
+        .highElf {
+            font-family: 'Eagle Lake', cursive;
+        }
+        
+        .highElfP {
+            font-family: 'Eagle Lake', cursive;
+        }
+        
+        .woodElf {
+            font-family: 'Eagle Lake', cursive;
+        }
+        
+        .woodElfP {
+            font-family: 'Eagle Lake', cursive;
+        }
+        
+        .Drow {
+            font-family: 'Eagle Lake', cursive;
+        }
+        
+        .DrowP {
+            font-family: 'Eagle Lake', cursive;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <div class="button">
+            <button class="reloadButton" onclick="document.location.reload()">Generate New NPC</button>
+        </div>
+        <div class="statsHeader">
+            <h1>Stats:</h1>
+        </div>
+        <div class="stats">
+            <script>
+                document.write(myNum1);
+            </script>
+            <script>
+                document.write(myNum2);
+            </script>
+
+            <script>
+                document.write(myNum3);
+            </script>
+            <script>
+                document.write(myNum4);
+            </script>
+            <script>
+                document.write(myNum5);
+            </script>
+            <script>
+                document.write(myNum6);
+            </script>
+        </div>
+        <div class="name">
+            <h1>Name:</h1>
+            <div class="nameTxt">
+                <script>
+                    document.write(myFEName);
+                </script>
+                <script>
+                    document.write(myEFN);
+                </script>
+                <div class="personality">
+                    <div class="npcAppearanceHeader">
+                        <h1>Npc Appearance:</h1>
+                    </div>
+                    <div class="npcAppearance">
+                        <script>
+                            document.write(myNpcAppearance);
+                        </script>
+                    </div>
+                    <div class="npcAbilities">
+                        <h1>Strong Abilities:</h1>
+                        <div class="npcStrongAbilities">
+                            <script>
+                                document.write(myNpcSA);
+                            </script>
+                        </div>
+                        <h1>Weak Abilities:</h1>
+                        <div class="npcWeakAbilities">
+                            <script>
+                                document.write(myNpcWA);
+                            </script>
+                        </div>
+
+                        <div class="npcPersonality">
+                            <div>
+                                <h1>Personality:</h1>
+                                <h2>Talents:</h2>
+                                <script>
+                                    document.write(myNpcT);
+                                </script>
+                                <h2>Mannerisms:</h2>
+                                <script>
+                                    document.write(myNpcM);
+                                </script>
+                                <h2>Interaction Traits:</h2>
+                                <script>
+                                    document.write(myNpcIT);
+                                </script>
+                                <h2>Ideals:</h2>
+                                <script>
+                                    document.write(myNpcI);
+                                </script>
+                                <h2>Bonds:</h2>
+                                <script>
+                                    document.write(myNpcB);
+                                </script>
+                                <h2>Flaws and Secrets:</h2>
+                                <script>
+                                    document.write(myNpcFS);
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 class="elfTraitsHeader">Elf Traits</h1>
+        <p class="elfTraitsP">
+            <b>Ability Score Increase:</b> Your Dexterity score increases by 2.
+            <br>
+            <b>Age:</b> Although Elves reach physical maturity at about the same age as humans, the Elven understanding of adulthood goes beyond physical growth to encompass worldy experience. An elf typically claims adulthood and and adult name around the age of 100 and can live to be 750 years old.
+            <br>
+            <b>Alignment:</b> Elves love freedom, variety, and self-expressions, so they lean strongly toward the gentler aspects of chaos. They value and protect others' freedom as well as their own. The Drow ar an exception; theur exile intot he Underdark has made them vicious and dangerous. Drow are more often evil than not.
+            <br>
+            <b>Size:</b> Elves range from under 5 to over 6 feet tall and have slender builds. Your size is medium.
+            <br>
+            <b>Speed:</b> Your base walking speed is 30 feet.
+            <br>
+            <b>Darkvison:</b> Accustomed to twilit forests and the night sky, you have siperior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You cant discern color in darkness only shades of grey.
+            <br>
+            <b>Keen Senses:</b> You have proficiency in the Perception skill.
+            <br>
+            <b>Fey Ancestry:</b> You have advantage on saving throws against being charmed, and magic can't put you to sleep.
+            <br>
+            <b>Trance:</b> Elves don't need to sleep. Instead, the meditate deeply, remaining semiconscious, for 4 hours a day.(The common word for such meditation is "trance") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting this way, you gain the sam benefit that a human does after 8 hours of sleep.
+            <br>
+            <b>Lanugages:</b> You can speak, read, and write Common and Elvish. Elvish is fluid with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards lean their language so they can add Elvish ballads to their repertoires.
+        </p>
+
+        <h1 class="subrace">Subraces:</h1>
+        <h2 class="highElf">High Elf:</h2>
+        <p class="highElfP">
+            <b>Ability Score Increase:</b> Your Intellegence score increases by 1
+            <br>
+            <b>Elf Weapon Training:</b> You have proficiency with the longsword, shortsword, shortbow, and longbow.
+            <br>
+            <b>Cantrip:</b> You know one cantrip of your choice from the wizards spell list. Intellegence is you spellcasting ability for it.
+            <br>
+            <b>Extra Language:</b> You can speak, read, and write one extra language of your choice
+        </p>
+
+        <h2 class="woodElf">Wood Elf</h2>
+        <p class="woodElfP">
+            <b>Ability Score Increase</b> Your Wisdom score increases by 1.
+            <br>
+            <b>Elf Weapon Training:</b> You have proficiency with the longsword, shortsword, shortbow, and longbow.
+            <br>
+            <b>Fleet of Foot:</b> Your base walking speed increases to 35 feet.
+            <br>
+            <b>Mask of the Wild:</b> You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.
+        </p>
+
+        <h2 class="Drow">Drow:</h2>
+        <p class="DrowP">
+            <b>Ability Score Increase:</b> You Charisma score increases by 1.
+            <br>
+            <b>Superior Darkvision:</b> Your darkvision has a 120 feed radius.
+            <br>
+            <b>Sunlight Sensitivity:</b> You have disadvantage on attack rolls and on Wisdom(Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to percieve is in direct sunlight.
+            <br>
+            <b>Drow Magic:</b> You know the <i>dancing lights</i> cantrip. When you reach 3rd level you can cast the <i>faerie fire</i> spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cas the <i>darkness</i> spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is you spellcasting abiliy for these spells.
+            <br>
+            <b>Drow Weapon training:</b> You have proficiency with rapiers, shortswords, and hand crossbows.
+        </p>
+
+    </div>
+</body>
+
+</html>
