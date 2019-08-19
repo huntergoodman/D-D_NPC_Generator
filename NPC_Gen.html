@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="file:///home/chronos/u-7bd9acf60573c8c3097a7ccd3eb7ddb47f346a65/MyFiles/Downloads/Code/NPC%20Character%20Gen/NPC_Gen.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Eagle+Lake');
+        .page {
+            background-color: #f8f5de;
+            background-image: linear-gradient(to right, rgba(255, 210, 0, 0.4), rgba(200, 160, 0, 0.1) 11%, rgba(0, 0, 0, 0) 35%, rgba(200, 160, 0, 0.1) 65%);
+            box-shadow: inset 0 0 75px rgba(255, 210, 0, 0.3), inset 0 0 20px rgba(255, 210, 0, 0.4), inset 0 0 30px rgba(220, 120, 0, 0.8);
+            color: rgba(0, 0, 0, 0.5);
+            width: calc(8.5in + 5.4in);
+            height: calc(8.5in + 5.4in);
+            letter-spacing: 0.05px;
+            line-height: 1.8;
+            padding: 5px 10px 15px 5px;
+        }
+        
+        .raceButton {
+            background-color: Transparent;
+            background-repeat: no-repeat;
+            border: none;
+            cursor: pointer;
+            overflow: hidden;
+            outline: none;
+            width: 300px;
+            height: 50px;
+            font-family: 'Eagle Lake', cursive;
+        }
+        
+        .unofficialMessage {
+            word-wrap: break-word;
+            width: 1091px;
+            position: absolute;
+            bottom: 0;
+        }
+        
+        .copyright {
+            float: left;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            text-align: center;
+            bottom: 0px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <div class="welcomeMessage">
+            <h1>Dungeons & Dragons NPC Generator</h1>
+        </div>
+        <button class="raceButton" onclick="maleDwarf()">Male Dwarf</button>
+        <button class="raceButton" onclick="maleElf()">Male Elf</button>
+        <button class="raceButton" onclick="maleHalfling()">Male Halfling</button>
+        <br>
+        <button class="raceButton" onclick="femaleDwarf()">Female Dwarf</button>
+        <button class="raceButton" onclick="femaleElf()">Female Elf</button>
+
+        <p class="unofficialMessage">Dungeons & Dragons NPC Generator&trade; is unoffical Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are proporty of Wizards of the Coast. &copy;Wizards of the Coast LLC.</p>
+    </div>
+
+    <div class="copyright">
+        Copyright 2019 &copy; Hunter Goodman
+    </div>
+
+</body>
+
+</html>
