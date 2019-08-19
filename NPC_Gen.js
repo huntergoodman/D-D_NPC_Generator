@@ -135,21 +135,21 @@ var myNpcFS = npcFlawsAndSecrets[Math.floor(Math.random() * npcFlawsAndSecrets.l
 
 //file open functions
 function maleDwarf() {
-    window.open('file:///home/chronos/u-7bd9acf60573c8c3097a7ccd3eb7ddb47f346a65/MyFiles/Downloads/Code/NPC%20Character%20Gen/Male_Dwarf.html');
+    window.open('file:///home/chronos/u-7bd9acf60573c8c3097a7ccd3eb7ddb47f346a65/MyFiles/Downloads/Code/D-D_NPC_Generator-master/races/Male_Dwarf.html');
 }
 
 function femaleDwarf() {
-    window.open('file:///home/chronos/u-7bd9acf60573c8c3097a7ccd3eb7ddb47f346a65/MyFiles/Downloads/Code/NPC%20Character%20Gen/Female_Dwarf.html');
+    window.open('file:///home/chronos/u-7bd9acf60573c8c3097a7ccd3eb7ddb47f346a65/MyFiles/Downloads/Code/D-D_NPC_Generator-master/races/Female_Dwarf.html');
 }
 
 function maleElf() {
-    window.open('file:///home/chronos/u-7bd9acf60573c8c3097a7ccd3eb7ddb47f346a65/MyFiles/Downloads/Code/NPC%20Character%20Gen/Male_Elf.html');
+    window.open('file:///home/chronos/u-7bd9acf60573c8c3097a7ccd3eb7ddb47f346a65/MyFiles/Downloads/Code/D-D_NPC_Generator-master/races/Male_Elf.html');
 }
 
 function femaleElf() {
-    window.open('file:///home/chronos/u-7bd9acf60573c8c3097a7ccd3eb7ddb47f346a65/MyFiles/Downloads/Code/NPC%20Character%20Gen/Female_Elf.html');
+    window.open('file:///home/chronos/u-7bd9acf60573c8c3097a7ccd3eb7ddb47f346a65/MyFiles/Downloads/Code/D-D_NPC_Generator-master/races/Female_Elf.html');
 }
 
 function maleHalfling() {
-    ('file:///home/chronos/u-7bd9acf60573c8c3097a7ccd3eb7ddb47f346a65/MyFiles/Downloads/Code/NPC%20Character%20Gen/Halfling_Male.html');
+    window.open('file:///home/chronos/u-7bd9acf60573c8c3097a7ccd3eb7ddb47f346a65/MyFiles/Downloads/Code/D-D_NPC_Generator-master/races/Halfling_Male.html');
 }
