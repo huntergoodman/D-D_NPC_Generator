@@ -166,13 +166,13 @@ var myNpcFS6 = npcFlawsAndSecrets6[Math.floor(Math.random() * npcFlawsAndSecrets
 //Calishite Male Constructor
 var calishiteMaleNames = ['Aseir', 'Bardeid', 'Haseid', 'Khemed', 'Mehmen', 'Sudeiman', 'Zasheir'];
 var calishiteSurnames = ['Basha', 'Dumein', 'Jassan', 'Khalid', 'Mostana', 'Pashar', 'Rein'];
-var myCalishiteMaleName = calishiteMaleNames[Math.floor(Math.random() * calishiteMaleNames.length)];
+var myCalishiteMale = calishiteMaleNames[Math.floor(Math.random() * calishiteMaleNames.length)];
 var myCalishiteSurname = calishiteSurnames[Math.floor(Math.random() * calishiteSurnames.length)];
 
 //Calisite Female Constructor
 var calishiteFemaleNames = ['Atala', 'Ceidil', 'Hama', 'Jasmal', 'Meilil', 'Seipora', 'Yaheira', 'Zasheida'];
 var calishiteSurnames = ['Basha', 'Dumein', 'Jassan', 'Khalid', 'Mostana', 'Pashar', 'Rein'];
-var myCalishiteFemaleName = calishiteFemaleNames[Math.floor(Math.random() * calishiteFemaleNames.length)];
+var myCalishiteFemale = calishiteFemaleNames[Math.floor(Math.random() * calishiteFemaleNames.length)];
 var myCalishiteSurname = calishiteSurnames[Math.floor(Math.random() * calishiteSurnames.length)];
 
 //Chondathan Male Constructor
@@ -187,6 +187,96 @@ var myChondathanFemale = chondathanFemaleNames[Math.floor(Math.random() * chonda
 var chondathanSurnames = ['Amblecrown', 'Buckman', 'Dundragon', 'Evenwood', 'Greycastle', 'Tallstag'];
 var myChondathanSurname = chondathanSurnames[Math.floor(Math.random() * chondathanSurnames.length)];
 
+//Damaran Male Consturctor
+var damaranMaleNames = ['Bor', 'Fodel', 'Glar', 'Grigor', 'Igan', 'Ivor', 'Kosef', 'Mival', 'Orel', 'Pavel', 'Sergor'];
+var myDamaranMale = damaranMaleNames[Math.floor(Math.random() * damaranMaleNames.length)];
+var damaranSurnames = ['Bersk', 'Chernin', 'Dotsk', 'Kulenov', 'Marsk', 'Nemetsk', 'Shemov', 'Starag'];
+var myDamaranSurname = damaranSurnames[Math.floor(Math.random() * damaranSurnames.length)];
+
+//Damaran Female Constructor
+var damaranFemaleNames = ['Alethra', 'Kara', 'Katernin', 'Mara', 'Natali', 'Olma', 'Tana', 'Zora'];
+var myDamaranFemale = damaranFemaleNames[Math.floor(Math.random() * damaranFemaleNames.length)];
+var damaranSurnames = ['Bersk', 'Chernin', 'Dotsk', 'Kulenov', 'Marsk', 'Nemetsk', 'Shemov', 'Starag'];
+var myDamaranSurname = damaranSurnames[Math.floor(Math.random() * damaranSurnames.length)];
+
+//Illuskan Male Constructor
+var illuskanMaleNames = ['Ander', 'Blath', 'Bran', 'Frath', 'Geth', 'Lander', 'Luth', 'Malcer', 'Stor', 'Taman', 'Urth'];
+var myIlluskanMale = illuskanMaleNames[Math.floor(Math.random() * illuskanMaleNames.length)];
+var illuskanSurnames = ['Brightwood', 'Helder', 'Hornraven', 'Lackman', 'Stormwind', 'Windrivver'];
+var myIlluskanSurname = illuskanSurnames[Math.floor(Math.random() * illuskanSurnames.length)];
+
+//Illuskan Female Constructor
+var illuskanFemaleNames = ['Amafrey', 'Betha', 'Cefrey', 'Kethra', 'Mara', 'Olga', 'Silifrey', 'Westra'];
+var myIlluskanFemale = illuskanFemaleNames[Math.floor(Math.random() * illuskanFemaleNames.length)];
+var illuskanSurnames = ['Brightwood', 'Helder', 'Hornraven', 'Lackman', 'Stormwind', 'Windrivver'];
+var myIlluskanSurname = illuskanSurnames[Math.floor(Math.random() * illuskanSurnames.length)];
+
+//Mulan Male Constructor
+var mulanMaleNames = ['Aoth', 'Bareris', 'Ehput-Ki', 'Kethoth', 'Mumed', 'Ramas', 'So-Kehur', 'Thazar-De', 'Urhur'];
+var myMulanMale = mulanMaleNames[Math.floor(Math.random() * mulanMaleNames.length)];
+var mulanSurnames = ['Ankhalab', 'Anskuld', 'Fezim', 'Hahpet', 'Nathandem', 'Sepret', 'Uuthrakt'];
+var myMulanSurname = mulanSurnames[Math.floor(Math.random() * mulanSurnames.length)];
+
+//Mulan Female Constructor
+var mulanFemaleNames = ['Arizima', 'Chathi', 'Naphis', 'Nulara', 'Murithi', 'Sefris', 'Thola', 'Umara', 'Zolis'];
+var myMulanFemale = mulanFemaleNames[Math.floor(Math.random() * mulanFemaleNames.length)];
+var mulanSurnames = ['Ankhalab', 'Anskuld', 'Fezim', 'Hahpet', 'Nathandem', 'Sepret', 'Uuthrakt'];
+var myMulanSurname = mulanSurnames[Math.floor(Math.random() * mulanSurnames.length)];
+
+//Rashemi Male Constructor
+var rashemiMaleNames = ['Borivik', 'Faurgar', 'Jandar', 'Kanithar', 'Madislak', 'Ralmevik', 'Shaumar', 'Vladislak'];
+var myRashemiMale = rashemiMaleNames[Math.floor(Math.random() * rashemiMaleNames.length)];
+var rashemiSurnames = ['Chergoba', 'Dyernina', 'Iltazyara', 'Murnyethara', 'Satanoga', 'Ulmokina'];
+var myRashemiSurname = rashemiSurnames[Math.floor(Math.random() * rashemiSurnames.length)];
+
+//Rashemi Female Constructor
+var rashemiFemaleNames = ['Fyevarra', 'Hulmarra', 'Immith', 'Imzel', 'Navarra', 'Shevarra', 'Tammith', 'Yuldra'];
+var myRashemiFemale = rashemiFemaleNames[Math.floor(Math.random() * rashemiFemaleNames.length)];
+var rashemiSurnames = ['Chergoba', 'Dyernina', 'Iltazyara', 'Murnyethara', 'Satanoga', 'Ulmokina'];
+var myRashemiSurname = rashemiSurnames[Math.floor(Math.random() * rashemiSurnames.length)];
+
+//Shou Male Constructor
+var shouMaleNames = ['An', 'Chen', 'Chi', 'Fai', 'Jiang', 'Jun', 'Lian', 'Long', 'Meng', 'On', 'Shan', 'Shui', 'Wen'];
+var myShouMale = shouMaleNames[Math.floor(Math.random() * shouMaleNames.length)];
+var shouSurnames = ['Chien', 'Huang', 'Kao', 'Kung', 'Lao', 'Ling', 'Mei', 'Pin', 'Shin', 'Sum', 'Tan', 'Wan'];
+var myShouSurname = shouSurnames[Math.floor(Math.random() * shouSurnames.length)];
+
+//Shou Female Constructor
+var shouFemaleNames = ['Bai', 'Chao', 'Jia', 'Mei', 'Qiao', 'Shui', 'Tai'];
+var myShouFemale = shouFemaleNames[Math.floor(Math.random() * shouFemaleNames.length)];
+var shouSurnames = ['Chien', 'Huang', 'Kao', 'Kung', 'Lao', 'Ling', 'Mei', 'Pin', 'Shin', 'Sum', 'Tan', 'Wan'];
+var myShouSurname = shouSurnames[Math.floor(Math.random() * shouSurnames.length)];
+
+//Turami Male Constructor
+var turamiMaleNames = ['Anton', 'Diero', 'Marcon', 'Pieron', 'Rimardo', 'Romero', 'Salazar', 'Umbero'];
+var myTuramiMale = turamiMaleNames[Math.floor(Math.random() * turamiMaleNames.length)];
+var turamiSurnames = ['Agosto', 'Astorio', 'Calabra', 'Domine', 'Falone', 'Marivaldi', 'Pisacar', 'Ramondo'];
+var myTuramiSurname = turamiSurnames[Math.floor(Math.random() * turamiSurnames.length)];
+
+//Turami Female Constructor
+var turamiFemaleNames = ['Balama', 'Dona', 'Faila', 'Jalana', 'Luisa', 'Marta', 'Quara', 'Selise', 'Vonda'];
+var myTuramiFemale = turamiFemaleNames[Math.floor(Math.random() * turamiFemaleNames.length)];
+var turamiSurnames = ['Agosto', 'Astorio', 'Calabra', 'Domine', 'Falone', 'Marivaldi', 'Pisacar', 'Ramondo'];
+var myTuramiSurname = turamiSurnames[Math.floor(Math.random() * turamiSurnames.length)];
+
+var npcAppearance7 = ['Distinctive jewlery: earrings, necklace, circlet, bracelets', 'Piercings', 'Flamboyant or outlandish clothes', 'Formal clean clothes', 'Ragged dirty clothes', 'Pronounced scar', 'Missing teeth', 'missing fingers', 'unusual eye color(or two different colors)', 'Tattoos', 'Birthmark', 'Unusual skin color', 'Bald', 'Braided beard or hair', 'Unusual hair color', 'Nervious eye twitch', 'Distinctive nose', 'Distinctive posture(crooked or ridged)', 'Exceptionally beautiful', 'Exeptionally ugly'];
+var myNpcAppearance7 = npcAppearance7[Math.floor(Math.random() * npcAppearance7.length)];
+var npcStrongAbilities7 = ['Strength--powerful brawny, strong as an ox', 'Dexterity--lithe, agile, graceful', 'Constitiution--hardy, hale, healthy', 'Intelligence--studious, learned, inquisitive', 'Wisdom--perceptive, spiritual, insightful', 'Charisma--persuasive, forceful, born leader'];
+var myNpcSA7 = npcStrongAbilities7[Math.floor(Math.random() * npcStrongAbilities7.length)];
+var npcWeakAbilities7 = ['Strength--feeble, scrawny', 'Dexterity--clumsy, fumbling', 'Constitiution--sickly, pale', 'Intelligence--dim-witted, slow', 'Wisdom--oblivious, abstentminded', 'Charisma--dull, boring'];
+var myNpcWA7 = npcWeakAbilities7[Math.floor(Math.random() * npcWeakAbilities7.length)];
+var npcTalents7 = ['Plays a musical instrument', 'Speaks several languages fluently', 'Unbelieveably lucky', 'Perfect memory', 'Great with animals', 'Great with children', 'Great at solving puzzles', 'Great at impersonations', 'Draws beautifully', 'Paints beautifully', 'Sings beautifully', 'Drinks everyone under the table', 'Expert carpenter', 'Expert cook', 'Expert dart thrower and rock skipper', 'Expert Juggler', 'Skilled actor and master of disguise', 'skilled dancer', 'Known theive\'s cant'];
+var myNpcT6 = npcTalents7[Math.floor(Math.random() * npcTalents7.length)];
+var npcMannerisms7 = ['Prone to singing, whistling, or humming quietly', 'Speaks in rhyme or some other peculiar way.', 'Particularly low or high voice', 'Slurs words, lisps, or stutters', 'Enunciates overly clearly', 'Speaks loudly', 'Whispers', 'Uses flowery speech or long words', 'Frequently uses the wrong word', 'Makes constant jokes or puns', 'Prone to predictions of doom', 'Fidgets', 'Squints', 'Stares into the distance', 'Chews something', 'Paces', 'Taps fingers', 'Bites fingernails', 'Twirls hair or tugs beard.'];
+var myNpcM7 = npcMannerisms7[Math.floor(Math.random() * npcMannerisms7.length)];
+var npcInteractionTraits7 = ['Argumentative', 'Arrogant', 'Blustering', 'Rude', 'Curious', 'Friendly', 'Honest', 'Hot Tempered', 'Irritable', 'Ponderous', 'Quiet', 'Suspicious'];
+var myNpcIT7 = npcInteractionTraits7[Math.floor(Math.random() * npcInteractionTraits7.length)];
+var npcIdeals7 = ['Beauty(Good)', 'Community(Lawful)', 'Balance(Neutral)', 'Domination(Evil)', 'Change(Chaotic)', 'Aspiration(Other)', 'Charity(Good)', 'Fairness(Lawful)', 'Knowledge(Neutral)', 'Greed(Evil)', 'Creativity(Chaotic)', 'Discovery(Other)', 'Greater Good(Good)', 'Honor(Lawful)', 'Live and let live(Neutral)', 'Might(Evil)', 'Freedom(Chaotic)', 'Glory(Other)', 'Life(Good)', 'Logic(Lawful)', 'Moderation(Neutral)', 'Pain(Evil)', 'Independence(Chaotic)', 'Nation(Other)', 'Respect(Good)', 'Responsibility(Lawful)', 'Neutrality(Neutral)', 'Retribution(Evil)', 'No Limits(Chaotic)', 'Redemption(Other)', 'Self-sacrifice(Good)', 'Tradition(Lawful)', 'People(Neutral)', 'Slaughter(Evil)', 'Whimsy(Chaotic)', 'Self-knowledge(Other)'];
+var myNpcI7 = npcIdeals7[Math.floor(Math.random() * npcIdeals7.length)];
+var npcBonds7 = ['Dedicated to fufilling a personal life goal.', 'Protective of close family members.', 'Protective of colleagues or compatriots.', 'Loyal to a benefactor, patron, or employer.', 'Captivated by a romatic intrest.', 'Drawn to a special place.', 'Protective of a sentimental keepsake', 'Protective of a valuable possesion', 'Out for revenge.'];
+var myNpcB7 = npcBonds7[Math.floor(Math.random() * npcBonds7.length)];
+var npcFlawsAndSecrets7 = ['Forbidden love or susceptability to romance.', 'Enjoys decadent pleasures.', 'Arrogance', 'Envies another creatur\'s possessions or station.', 'Overpowering greed.', 'Prone to rage', 'Has a powerful enemy.', 'Specific phobia.', 'Shameful or scandalous history.', 'Secret crime or misdeed.', 'Possession of forbidden lore.', 'Foolhardy bravery.'];
+var myNpcFS7 = npcFlawsAndSecrets7[Math.floor(Math.random() * npcFlawsAndSecrets7.length)];
 
 //file open functions
 function maleDwarf() {
@@ -215,4 +305,8 @@ function femaleHalfling() {
 
 function maleHuman() {
     window.open('file:///home/chronos/u-7bd9acf60573c8c3097a7ccd3eb7ddb47f346a65/MyFiles/Downloads/Code/D-D_NPC_Generator-master/races/Male_Human.html');
+}
+
+function femaleHuman() {
+    window.open('file:///home/chronos/u-7bd9acf60573c8c3097a7ccd3eb7ddb47f346a65/MyFiles/Downloads/Code/D-D_NPC_Generator-master/races/Female_Human.html')
 }
